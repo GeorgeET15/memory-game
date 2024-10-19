@@ -110,6 +110,13 @@ const Cards = () => {
   };
 
   const handleClick = (id) => {
+    // if (
+    //   id === prev ||
+    //   items[id].stat === "correct" ||
+    //   items[id].stat === "active"
+    // ) {
+    //   return;
+    // }
     if (prev === -1) {
       items[id].stat = "active";
       setItems([...items]);
